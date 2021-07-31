@@ -1,0 +1,172 @@
+
+{
+  "name": "Angel Francisco Merlin Solis",
+  "address": "México, Ciudad de México",
+  "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQGpOn3HvFr9lw/profile-displayphoto-shrink_800_800/0/1625380236204?e=1632960000&v=beta&t=T4aw0wBNSK81AGeQwmmwi3Agi0pPiKaN7AdkgLe5epo",
+  "proffesion": "Ux Designer / Front End Developer",
+  "bio": "Me gustaría cambiar el mundo :) pero no me dan el código fuente",
+  "certificates": [
+    {
+      "date": "Marzo 2021",
+      "description": "Conocimientos básicos de Azure y la nube",
+      "link": "https://www.certiport.com/Portal/Pages/PrintTranscriptInfo.aspx?action=Cert&id=414&cvid=W5gKwap9O1mPO/fJclqQNg==",
+      "institution": "Microsoft",
+      "name": "Microsoft Azure Fundamentals"
+    },
+    {
+      "date": "Julio 2021",
+      "description": "Participación en curso de ciberseguridad",
+      "link": "https://drive.google.com/file/d/1B2Qb_s-nkTkFS4KpqJjeLq5sx2A3filV/view",
+      "institution": "BEDU",
+      "name": "Disruptive Skills BEDU"
+    }
+  ],
+  "education": [
+    {
+      "institution" : "Instituto Politecnico Nacional - IPN",
+      "school" : "Centro de Estudios Cientificos y Tecnologicos No.3 (CECyT 3)",
+      "title" : "Técnico en Computación",
+      "description" : "Programación básica orientada objetos y lenguaje Java, PHP, MySQL, C",
+      "dates" : " Agosto 2014 - Junio 2017"
+    },
+    {
+      "institution" : "Instituto Politecnico Nacional - IPN",
+      "school" : "Escuela Superior de Computo (ESCOM)",
+      "title" : "Ingeniero en Sistemas",
+      "description" : "Programación avanzada en sistemas distribuidos, orientada a objetos y especializaciones en Criptografía, Redes Neuronales y lenguajes Javascript, Java, C++",
+      "dates" : " Agosto 2017 - Junio 2022"
+    }
+  ],
+  "skills": [
+    {
+      "type": "Programming",
+      "skil": [
+        {
+          "name": "HTML 5",
+          "percentage": "85%"
+        },
+        {
+          "name": "CSS",
+          "percentage": "60%"
+        },
+        {
+          "name": "JavaScript",
+          "percentage": "70%"
+        },
+        {
+          "name": "Java",
+          "percentage": "60%"
+        },
+        {
+          "name": "SQL",
+          "percentage": "60%"
+        },
+        {
+          "name": "Python",
+          "percentage": "50%"
+        },
+        {
+          "name": "C/C++",
+          "percentage": "50%"
+        }
+      ]
+    },
+    {
+      "type": "Designer",
+      "skil":
+      [
+        {
+          "name": "UI",
+          "percentage":"60%"
+        },
+        {
+          "name": "Adobe Illustrator",
+          "percentage": "45%"
+        },
+        {
+          "name": "Adobe Photoshop",
+          "percentage": "45%"
+        },
+        {
+          "name": "Adobe XD",
+          "percentage": "55%"
+        },
+        {
+          "name": "Figma",
+          "percentage": "65%"
+        }
+      ]
+    },
+    {
+      "type": "Soft Skills",
+      "skil":
+      [
+        {
+          "name": "Pro-activo",
+          "percentage":"75%"
+        },
+        {
+          "name": "Trabajo en equipo",
+          "percentage": "75%"
+        },
+        {
+          "name": "Creativo",
+          "percentage": "80%"
+        },
+        {
+          "name": "Comunicación",
+          "percentage": "80%"
+        },
+        {
+          "name": "Adaptabilidad",
+          "percentage": "80%"
+        }
+      ]
+    },
+    {
+      "type": "Others",
+      "skil":
+      [
+        {
+          "name": "Cybersecurity",
+          "percentage":"35%"
+        },
+        {
+          "name": "Project Management",
+          "percentage": "35%"
+        },
+        {
+          "name": "English",
+          "percentage": "65%"
+        },
+        {
+          "name": "Cloud Development",
+          "percentage": "35%"
+        },
+        {
+          "name": "Git",
+          "percentage": "65%"
+        }
+      ]
+    }
+  ],
+  "social":[
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/merlin.angel48/"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Taco_Wapo1902"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "www.linkedin.com/in/angelsolis48"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/AngelSolis48"
+    }
+  ]
+}
+

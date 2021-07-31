@@ -7,21 +7,34 @@ import Certificates from "../components/Certificates";
 import Education from "../components/Education";
 import Skills from "../components/Skills";
 // import useGetData from "../hooks/useGetData";
-import PostData from "../json/data.json";
+import Data from "../json/data.json";
 
 function App() {
 
-  console.log(PostData);
-  PostData.map(a=>console.log(a))
-  return (
+  console.log(Data);
+  console.log(Data.name);
+  return Data.length === 0 ? <h1>Cargando...</h1> : (
     <Main>
       <Siderbar>
-        <About />
+        <About 
+          avatar={Data.avatar}
+          name={Data.name}
+          profession={Data.profession}
+          bio={Data.bio}
+          address={Data.address}
+          social={Data.social}
+        />
       </Siderbar>
       <Info>
-        <Education />
-        <Certificates />
-        <Skills />
+        <Education 
+          data={Data.education}
+        />
+        <Certificates 
+          data={Data.certificates}
+        />
+        <Skills 
+          data={Data.skills}
+        />
       </Info>
     </Main>
   );
