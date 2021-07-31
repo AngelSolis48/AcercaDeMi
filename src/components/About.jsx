@@ -1,36 +1,48 @@
-import React from 'react'
-import Social from './Social'
+import React from "react";
+import Social from "./Social";
+import styled from "styled-components";
 
+const AboutStyle = styled.div`
+    text-align: center;
+`;
+
+const AboutAvatar = styled.div`
+    padding: 2em 0 0 0;
+`;
+
+const AboutImg = styled.img`
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+`;
 const About = ({ avatar, name, profession, bio, address, social }) => {
-    return (
-        <div className="About">
-            <div className="About-container">
-                <div className="About-avatar">
-                    <figure>
-                        <img src={avatar} alt={name}/>
-                    </figure>
-                </div>
-                <div className="About-name">
-                    <h2>{name}</h2>
-                </div>
-                <div className="About-profession">
-                    <p>{profession}</p>
-                </div>
-                <div className="About-desc">
-                    <p>{bio}</p>
-                </div>
-                <div className="About-location">
-                    <p>{address}</p>
-                </div>
-                <div className="About-social">
-                    <Social
-                        social={social}
-                    />
-                </div>
-            </div>
-            
+  return (
+    <AboutStyle>
+      <div className="About-container">
+        <AboutAvatar>
+          <figure>
+            <AboutImg src={avatar} alt={name} />
+          </figure>
+        </AboutAvatar>
+        <div className="About-name">
+          <h2>{name}</h2>
         </div>
-    )
-}
+        <div className="About-profession">
+          <p>{profession}</p>
+        </div>
+        <div className="About-desc">
+          <p>{bio}</p>
+        </div>
+        <div className="About-location">
+          <p>{address}</p>
+        </div>
+        <div className="About-social">
+          <Social social={social} />
+        </div>
+      </div>
+    </AboutStyle>
+  );
+};
 
-export default About
+export default About;
