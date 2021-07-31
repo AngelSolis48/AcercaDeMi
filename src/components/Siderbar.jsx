@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Siderbar = () => {
+const Siderbar = ( {children} ) => {
     return (
-        <div>
-            
+        <div className="Siderbar">
+            <div className="Siderbar-container">
+                {children}
+            </div>
         </div>
     )
 }
