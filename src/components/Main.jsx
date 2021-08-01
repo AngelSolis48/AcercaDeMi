@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const MainStyled = styled.div`
     display: grid;
-    grid-template-columns: minmax(auto, 1024px);
+    grid-template-columns: minmax(auto, 1440px);
     justify-content: center;
     padding: 1em;
 `;
