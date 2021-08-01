@@ -2,19 +2,33 @@ import React from 'react'
 import styled from 'styled-components'
 
 const MainStyled = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    justify-items: center;
+    display: grid;
+    grid-template-columns: minmax(auto, 1024px);
     justify-content: center;
+    padding: 1em;
+`;
+
+const MainContainer = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 2rem;
+    grid-row-gap: 0.5em;
+    @media only screen and (max-width: 767px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: center;
+        min-width: 350px;
+    }
 `;
 
 const Main = ({children}) => {
     return (
-        <div className="Main">
-            <MainStyled>
+        <MainStyled className="Main">
+            <MainContainer>
                 {children}
-            </MainStyled>
-        </div>
+            </MainContainer>
+        </MainStyled>
     )
 }
 

@@ -5,6 +5,18 @@
   "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQGpOn3HvFr9lw/profile-displayphoto-shrink_800_800/0/1625380236204?e=1632960000&v=beta&t=T4aw0wBNSK81AGeQwmmwi3Agi0pPiKaN7AdkgLe5epo",
   "profession": "Ux Designer / Front End Developer",
   "bio": "Me gustaría cambiar el mundo :) pero no me dan el código fuente",
+  "works":[
+    {
+      "name":"Proyecto de sustentabilidad",
+      "roles":"UX Designer",
+      "url":"https://behance.com"
+    },
+    {
+      "name":"Proyecto de sustentabilidad",
+      "roles":"UX Designer",
+      "url":"https://behance.com"
+    }
+  ],
   "certificates": [
     {
       "date": "Marzo 2021",
@@ -161,7 +173,7 @@
     },
     {
       "name": "linkedin",
-      "url": "www.linkedin.com/in/angelsolis48"
+      "url": "https://www.linkedin.com/in/angelsolis48"
     },
     {
       "name": "github",

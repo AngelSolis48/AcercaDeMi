@@ -6,9 +6,6 @@ const AboutStyle = styled.div`
   align-self: center;
   text-align: center;
   padding: 0;
-  margin: 2em 1em;
-  border-radius: 15px;
-  box-shadow: 0 0 .5em rgba(0,0,0,0.5);
   min-width: 450px;
   max-width: 500px;
   @media only screen and (max-width: 700px) {
