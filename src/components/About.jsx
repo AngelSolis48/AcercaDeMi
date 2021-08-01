@@ -3,12 +3,17 @@ import Social from "./Social";
 import styled from "styled-components";
 
 const AboutStyle = styled.div`
-    text-align: center;
-    float: left;
-    margin: 0 1em 0 0;
-    border-radius: 15px;
-    box-shadow: 0 0 .5em rgba(0,0,0,0.5);
-    min-width: 450px;
+  align-self: center;
+  text-align: center;
+  padding: 0;
+  margin: 2em 1em;
+  border-radius: 15px;
+  box-shadow: 0 0 .5em rgba(0,0,0,0.5);
+  min-width: 450px;
+  max-width: 500px;
+  @media only screen and (max-width: 700px) {
+    min-width: 350px;
+  }
 `;
 
 const AboutAvatar = styled.div`
@@ -31,8 +36,8 @@ const AboutH2 = styled.h2`
     font-family: 'Montserrat',sans-serif;
     font-weight: 700;
     letter-spacing: -1.2px;
-    margin: 5em 0 0 0;
-    color: #1b1725;
+    margin: 0.5em 0 0 0;
+    color: #1E6197;
 `;
 
 const AboutProfession = styled.p`
@@ -40,13 +45,25 @@ const AboutProfession = styled.p`
     margin: 0 0 1em 0;
     letter-spacing: 1.6;
     font-weight: 700;
-    color: #1b1725;
+    color: #1E6197;
 `;
 
 const AboutBio = styled.p`
+  font-family: 'Open Sans', sans-serif;
+  color: #1b1725;
+  font-weight: 300;
+  font-size: 1em;
+  text-align: center;
+  padding: 1em;
+  max-width: fit-content;
+`;
+
+const AboutLocation = styled.p`
+  font-family: 'Open Sans', sans-serif;
     color: #1b1725;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1em;
+    text-align: center;
 `;
 
 const About = ({ avatar, name, profession, bio, address, social }) => {
@@ -68,7 +85,7 @@ const About = ({ avatar, name, profession, bio, address, social }) => {
           <AboutBio>{bio}</AboutBio>
         </div>
         <div className="About-location">
-          <p>{address}</p>
+          <AboutLocation>{address}</AboutLocation>
         </div>
         <div className="About-social">
           <Social social={social} />

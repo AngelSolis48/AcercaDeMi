@@ -1,19 +1,35 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+import H2Styled from '../css/H2Styled';
+import H3Styled from '../css/H3Styled';
+import H4Styled from '../css/H4Styled';
+import PStyled from '../css/PStyled';
+
+const EduContainer = styled.div`
+    padding: 1em 2em;
+    display: inline-block;
+    box-sizing: border-box;
+    flex-flow: nowrap;
+    flex-direction: column;
+    text-align: justify;
+`;
 
 const Education = props => {
     return (
         <div className="Education">
-            <div className="Education-container">
+            <EduContainer> 
+            <H2Styled name="Education"/>
+            
                 {props.data.map((edu, index)=>(
                     <div className="Education-item" key={`Edu-${index}`}>
-                        <h3>{edu.institution}</h3>
-                        <h4>{edu.school}</h4>
-                        <h4>{edu.title}</h4>
-                        <p>{edu.description}</p>
-                        <p>{edu.dates}</p>
+                        <H3Styled>{edu.institution}</H3Styled>
+                        <H4Styled>{edu.school}</H4Styled>
+                        <H4Styled>{edu.title}</H4Styled>
+                        <PStyled>{edu.description}</PStyled>
+                        <PStyled>{edu.dates}</PStyled>
                     </div>
                 ))}
-            </div>
+            </EduContainer>
         </div>
     )
 }

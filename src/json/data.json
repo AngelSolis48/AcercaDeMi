@@ -80,11 +80,11 @@
           "percentage":"60%"
         },
         {
-          "name": "Adobe Illustrator",
+          "name": "Illustrator",
           "percentage": "45%"
         },
         {
-          "name": "Adobe Photoshop",
+          "name": "Photoshop",
           "percentage": "45%"
         },
         {
@@ -106,7 +106,7 @@
           "percentage":"75%"
         },
         {
-          "name": "Trabajo en equipo",
+          "name": "Teamwork",
           "percentage": "75%"
         },
         {
@@ -129,19 +129,19 @@
       [
         {
           "name": "Cybersecurity",
-          "percentage":"35%"
+          "percentage":"45%"
         },
         {
-          "name": "Project Management",
-          "percentage": "35%"
+          "name": "Project M",
+          "percentage": "45%"
         },
         {
           "name": "English",
           "percentage": "65%"
         },
         {
-          "name": "Cloud Development",
-          "percentage": "35%"
+          "name": "Cloud ",
+          "percentage": "45%"
         },
         {
           "name": "Git",
@@ -152,19 +152,19 @@
   ],
   "social":[
     {
-      "name": "Facebook",
+      "name": "facebook",
       "url": "https://www.facebook.com/merlin.angel48/"
     },
     {
-      "name": "Twitter",
+      "name": "twitter",
       "url": "https://twitter.com/Taco_Wapo1902"
     },
     {
-      "name": "LinkedIn",
+      "name": "linkedin",
       "url": "www.linkedin.com/in/angelsolis48"
     },
     {
-      "name": "GitHub",
+      "name": "github",
       "url": "https://github.com/AngelSolis48"
     }
   ]

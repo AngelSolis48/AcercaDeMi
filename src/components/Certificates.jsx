@@ -1,21 +1,36 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+import H2Styled from '../css/H2Styled';
+import H3Styled from '../css/H3Styled';
+import H4Styled from '../css/H4Styled';
+import PStyled from '../css/PStyled';
+
+const CertContainer = styled.div`
+    padding: 1em 2em;
+    display: inline-block;
+    box-sizing: border-box;
+    flex-flow: nowrap;
+    flex-direction: column;
+    text-align: justify;
+`;
 
 const Certificates = props => {
     return (
         <div className="Certificates">
-            <div className="Certificates-container">
+            <CertContainer>
+                <H2Styled name="Certificaciones / Reconocimientos"/>
                 {   
                     props.data.map((cert,id)=>(
                         <div className="Certificates-item" key={`Cert-${id}`}>
-                            <h3>{cert.name}</h3>
-                            <h4>{cert.institution}</h4>
-                            <h5><a href={cert.link}> Ver Credencial </a></h5>
-                            <p>{cert.description}</p>
-                            <p>{cert.date}</p>
+                            <H3Styled>{cert.name}</H3Styled>
+                            <H4Styled>{cert.institution}</H4Styled>
+                            <H4Styled><a href={cert.link}> Ver Credencial </a></H4Styled>
+                            <PStyled>{cert.description}</PStyled>
+                            <PStyled>{cert.date}</PStyled>
                         </div>
                     ))
                 }
-            </div>
+            </CertContainer>
         </div>
     )
 }

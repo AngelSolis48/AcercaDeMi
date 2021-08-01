@@ -1,11 +1,19 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const MainStyled = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+`;
 
 const Main = ({children}) => {
     return (
         <div className="Main">
-            <div className="Main-container">
+            <MainStyled>
                 {children}
-            </div>
+            </MainStyled>
         </div>
     )
 }
