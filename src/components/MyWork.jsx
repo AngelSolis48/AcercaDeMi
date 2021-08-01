@@ -1,5 +1,4 @@
 import React from 'react'
-import H2Styled from '../css/H2Styled'
 import H3Styled from '../css/H3Styled'
 import H4Styled from '../css/H4Styled'
 import PStyled from '../css/PStyled'
