@@ -26,6 +26,27 @@
       "link": "https://drive.google.com/file/d/1B2Qb_s-nkTkFS4KpqJjeLq5sx2A3filV/view",
       "institution": "BEDU",
       "name": "Disruptive Skills BEDU"
+    },
+    {
+      "date": "En curso",
+      "description": "Cursando programa para certificación de Project Management",
+      "link": "",
+      "institution": "EMTech - Santander",
+      "name": "Project Management"
+    },
+    {
+      "date": "En curso",
+      "description": "Cursando programa para certificación de Google Cloud Associate Cloud Engineer, actualmente 1/5 completado para la preparación del exámen por parte de INROADS",
+      "link": "https://coursera.org/verify/Z6GATLBYCXXW",
+      "institution": "Google",
+      "name": "Google Cloud Traning"
+    },
+    {
+      "date": "Fundamentos de diseños de Experiencia de Usuario",
+      "description": "Investigación de usuarios, accesibilidad y fundamentos básicos de UX",
+      "link": "https://coursera.org/verify/JADCJLH2RUGX",
+      "institution": "Google",
+      "name": "Foundations of User Experience (UX) Design"
     }
   ],
   "education": [
