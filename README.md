@@ -1,13 +1,15 @@
-# Getting Started with Create React App
+# About Me Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here´s a template maked with React.js for a CV 
 
-## Available Scripts
+## How to use it?
 
-In the project directory, you can run:
+For this project you can change the .json file so you can put your data. 
+In this case I used Hooks, State, Styledcomponents and React.
 
-### `yarn start`
+## About Me
 
+<<<<<<< HEAD
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -70,3 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### `npm install styled-components --save` Para dar estilos
+=======
+My name is Angel and is a pleassure to know that maybe you are reading this. This is one of my little projects, with the time, I'll be uploading more. :) I bet you'll like new projects the most.
+>>>>>>> 6d992b36cd050e865770af7f7273ea23e0cf33fa
